@@ -26,7 +26,7 @@ class SearchBar extends Component {
             <div className="row">
                 <div className="col-lg-6">
                     <form onSubmit={this.onFormSubmit} >
-                        <h2>5 day weather forecast</h2>
+                        <h2 className="pt-5">5 day weather forecast</h2>
                         <div className="input-group">
                             <input 
                                 onChange={this.onInputChange}
